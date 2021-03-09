@@ -8,11 +8,12 @@
 flex-direction: column;}
     
 .intro {font-family: DotGothic16, sans-serif;
+    position:
     height: 158px;
     width: 325px; 
     font-weight: bold;
     font-size: 42px;
-    padding: 100px;   
+    padding: 100px !important;   
 }
 .Name {padding: 100px;
     position:absolute; 
@@ -21,7 +22,7 @@ flex-direction: column;}
 }
 .HeroImage{background-color:rgb(77, 0, 0);
     position: absolute;
-    left: 50%;
+    left: 27%;
     height: 926px;
     width: 926px;
 }
@@ -39,7 +40,7 @@ flex-direction: column;}
 }
 .MyWork {background-color: cyan;
 height: 926px;
-width: 60px;
+width: 50px;
 position: absolute;
 left: 97%;
 z-index: 1;
